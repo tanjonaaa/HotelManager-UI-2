@@ -147,7 +147,7 @@ function Hotel() {
           <div className="listResult">
             {loading && "Loading"}
             {error && "error"}
-            {filterMode ? <button onClick={terminateSearch}>Réinitialiser la recherche</button> : ""}
+            {filterMode ? <button onClick={terminateSearch} className="btn-tanjona">Réinitialiser la recherche</button> : ""}
             <br />
             {
               data.map(room => {

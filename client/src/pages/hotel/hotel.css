@@ -109,7 +109,16 @@
   flex: 3;
 }
 
-
+.btn-tanjona{
+  padding: 0.5rem 1rem;
+  background-color: var(--burnt-Orange);
+  color: white;
+  border-radius: 0.5rem;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all .5s ease;
+}
 /* .hotelContainer {
   margin-top: 10rem !important;
   display: flex;
